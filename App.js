@@ -8,7 +8,8 @@ class App extends Component<Props> {
   render() {
     return (
       <View style={appStyles.container}>
-        <Text style={appStyles.welcome}>React Native {instructions}!</Text>
+        <Text style={appStyles.welcome}>React Native Redux Filter </Text>
+        <Text>{instructions}!</Text>
       </View>
     );
   }
