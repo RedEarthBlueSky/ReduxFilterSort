@@ -16,7 +16,7 @@ export default (state = filtersReducerDefaultState, action) => {
       return {
         ...state,
         startYear: action.startYear
-      }
+      };
     case 'END_YEAR':
       return {
         ...state,
@@ -35,7 +35,6 @@ export default (state = filtersReducerDefaultState, action) => {
         startYear: action.defaultFilter.startYear,
         endYear: action.defaultFilter.endYear,
       }
-
     default:
       return state;
   }
